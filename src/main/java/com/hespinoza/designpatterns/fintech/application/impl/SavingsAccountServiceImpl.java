@@ -8,8 +8,8 @@ public class SavingsAccountServiceImpl extends Account {
   private final BigDecimal balance;
   private final BigDecimal interestRate;
   public SavingsAccountServiceImpl() {
-    balance = BigDecimal.ZERO; // Balance inicial cero
-    interestRate = new BigDecimal("0.05"); // Tasa de interés del 5%
+    balance = BigDecimal.ZERO; // Balance initial zero
+    interestRate = new BigDecimal("0.02"); // Tasa de interés del 5%
   }
 
   @Override

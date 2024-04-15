@@ -19,7 +19,6 @@ public class InvestmentAccountServiceImpl extends Account {
       throw new IllegalArgumentException("El monto a depositar debe ser positivo");
     }
   }
-
   @Override
   public void withdraw(BigDecimal amount) {
     if (amount.compareTo(BigDecimal.ZERO) > 0 &&  getBalance().compareTo(amount) >= 0) {
