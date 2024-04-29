@@ -21,6 +21,15 @@ import java.math.BigDecimal;
 public class DesignPatternsApplication {
 
 	public static void main(String[] args) {
+		// FACTORY PATTERN
+		// Nos permite crear objetos sin especificar la clase exacta del objeto que se creará. Para lograr esto, los
+		// objetos se crean llamando a un método de fábrica en lugar de llamar a un constructor.
+		// Por lo general, la creación de objetos en Java se realiza así:
+		// Falcon objeto = new Falcon();
+		// El problema con el enfoque anterior es que el código que usa el objeto de Falcon, de repente ahora se vuelve
+		// dependiente de la implementación concreta de Falcon. No hay nada de malo en usar new para crear objetos, pero
+		// viene con el bagaje de acoplar estrechamente nuestro código a la clase de implementación concreta, lo que
+		// ocasionalmente puede ser problemático.
 		SpringApplication.run(DesignPatternsApplication.class, args);
 		// Exercise 01
 		AccountFactory accountFactory = getAccountFactory("investment");
