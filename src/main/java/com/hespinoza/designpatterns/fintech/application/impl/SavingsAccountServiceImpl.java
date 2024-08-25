@@ -9,7 +9,7 @@ public class SavingsAccountServiceImpl extends Account {
   private final BigDecimal interestRate;
   public SavingsAccountServiceImpl() {
     balance = BigDecimal.ZERO; // Balance initial zero
-    interestRate = new BigDecimal("0.02"); // Tasa de interés del 5%
+    interestRate = new BigDecimal("0.02"); // Interes rate at 5%
   }
 
   @Override
@@ -17,7 +17,7 @@ public class SavingsAccountServiceImpl extends Account {
     if (amount.compareTo(BigDecimal.ZERO) > 0) {
       setBalance(balance.add(amount));
     } else {
-      throw new IllegalArgumentException("El monto a depositar debe ser positivo");
+      throw new IllegalArgumentException("The amount to be deposited must be positive.");
     }
   }
 
@@ -26,7 +26,7 @@ public class SavingsAccountServiceImpl extends Account {
     if (amount.compareTo(BigDecimal.ZERO) > 0 &&  getBalance().compareTo(amount) >= 0) {
       setBalance(getBalance().subtract(amount));
     } else {
-      throw new IllegalArgumentException("Fondos insuficientes o monto incorrecto");
+      throw new IllegalArgumentException("Insufficient funds or incorrect amount.");
     }
   }
 

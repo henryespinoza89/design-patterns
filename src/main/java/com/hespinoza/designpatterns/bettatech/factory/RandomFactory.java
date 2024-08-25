@@ -8,7 +8,6 @@ import com.hespinoza.designpatterns.bettatech.domain.model.Enemy;
 public class RandomFactory implements EnemyRandomFactory {
   @Override
   public Enemy createEnemyRamdonFactory() {
-    // Este algoritmo nos permite instanciar enemigos
     Enemy enemy;
     Double randomNum = Math.random();
     if (randomNum > 0.00 && randomNum < 0.30) {

@@ -8,13 +8,13 @@ public final class Koopa extends Enemy {
   }
   @Override
   public String power() {
-    setPower("Tengo el poder para escupir bolas de fuego o lanzallamas.");
+    setPower("I have the power to spit fireballs or flamethrowers.");
     return getPower();
   }
 
   @Override
   public String weaknesses() {
-    setWeaknesses("Nos puedes aplastar en 3 intentos.");
+    setWeaknesses("You can crush us in 3 tries.");
     return getWeaknesses();
   }
 

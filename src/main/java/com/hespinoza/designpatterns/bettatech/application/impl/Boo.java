@@ -8,13 +8,13 @@ public final class Boo extends Enemy {
   }
   @Override
   public String power() {
-    setPower("Tengo el poder para atravesar las paredes y debilidar a mi enemigo.");
+    setPower("I have the power to break through walls and weaken my enemy.");
     return getPower();
   }
 
   @Override
   public String weaknesses() {
-    setWeaknesses("Tengo manos cortas y torpes y no tengo dedos.");
+    setWeaknesses("I have short, clumsy hands and no fingers.");
     return getWeaknesses();
   }
 

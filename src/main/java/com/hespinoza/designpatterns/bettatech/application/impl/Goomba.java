@@ -8,13 +8,13 @@ public final class Goomba extends Enemy {
   }
   @Override
   public String power() {
-    setPower("Tengo el poder para alcanzar objetos que se encuentren a gran altura.");
+    setPower("I have the power to reach objects that are at great heights.");
     return getPower();
   }
 
   @Override
   public String weaknesses() {
-    setWeaknesses("Somos pequeños y nos puedes aplastar.");
+    setWeaknesses("We are small and you can crush us.");
     return getWeaknesses();
   }
 
