@@ -1,9 +1,11 @@
 ## :speech_balloon: Patrones de diseño - Patrón Factory
 
-Nos permite crear objetos sin especificar la clase exacta del objeto que se creará. Para lograr esto, los objetos se crean llamando a un método de fábrica en lugar de llamar a un constructor. Por lo general, la creación de objetos en Java se realiza así:
-</br>
+El patrón Factory es un patrón creacional de diseño que se utiliza para crear objetos sin exponer la lógica de creación al cliente y permite a las subclases modificar el tipo de objetos que se crean. Para este ejemplo, el patrón Factory se usa para crear diferentes tipos de cuentas (Account), como cuentas de ahorro, cuentas corrientes y cuentas de inversión, sin que el cliente necesite saber qué tipo específico de cuenta se está creando.
+</br></br>
+Por lo tanto, el patrón factory nos permite crear objetos sin especificar la clase exacta del objeto que se creará. Para lograr esto, los objetos se crean llamando a un método de fábrica en lugar de llamar a un constructor. Por lo general, la creación de objetos en Java se realiza así:
+```sh
 Falcon objeto = new Falcon();
-</br>
+```
 El problema con el enfoque anterior es que el código que usa el objeto de Falcon, de repente ahora se vuelve dependiente de la implementación concreta de Falcon. No hay nada de malo en usar new para crear objetos, pero viene con el bagaje de acoplar estrechamente nuestro código a la clase de implementación concreta, lo que ocasionalmente puede ser problemático.
 
 `Exercise 01`
