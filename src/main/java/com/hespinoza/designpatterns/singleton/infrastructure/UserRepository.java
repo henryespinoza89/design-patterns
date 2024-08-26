@@ -1,6 +1,6 @@
-package com.hespinoza.designpatterns.fintech.infrastructure;
+package com.hespinoza.designpatterns.singleton.infrastructure;
 
-import com.hespinoza.designpatterns.fintech.domain.User;
+import com.hespinoza.designpatterns.singleton.domain.User;
 
 import java.util.Optional;
 

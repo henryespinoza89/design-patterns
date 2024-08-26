@@ -1,7 +1,7 @@
-package com.hespinoza.designpatterns.fintech.infrastructure.impl;
+package com.hespinoza.designpatterns.singleton.infrastructure.impl;
 
-import com.hespinoza.designpatterns.fintech.domain.User;
-import com.hespinoza.designpatterns.fintech.infrastructure.UserRepository;
+import com.hespinoza.designpatterns.singleton.domain.User;
+import com.hespinoza.designpatterns.singleton.infrastructure.UserRepository;
 import org.springframework.stereotype.Component;
 
 import java.util.HashMap;

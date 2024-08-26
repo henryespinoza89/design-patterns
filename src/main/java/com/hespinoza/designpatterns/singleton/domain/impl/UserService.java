@@ -1,7 +1,7 @@
-package com.hespinoza.designpatterns.fintech.domain.impl;
+package com.hespinoza.designpatterns.singleton.domain.impl;
 
-import com.hespinoza.designpatterns.fintech.domain.User;
-import com.hespinoza.designpatterns.fintech.infrastructure.UserRepository;
+import com.hespinoza.designpatterns.singleton.domain.User;
+import com.hespinoza.designpatterns.singleton.infrastructure.UserRepository;
 import org.springframework.stereotype.Service;
 
 @Service

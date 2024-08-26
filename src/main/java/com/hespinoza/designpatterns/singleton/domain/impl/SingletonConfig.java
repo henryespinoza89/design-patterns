@@ -1,4 +1,4 @@
-package com.hespinoza.designpatterns.fintech.domain.impl;
+package com.hespinoza.designpatterns.singleton.domain.impl;
 
 import org.springframework.stereotype.Component;
 

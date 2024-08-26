@@ -1,6 +1,6 @@
 package com.hespinoza.designpatterns;
 
-import com.hespinoza.designpatterns.fintech.domain.impl.SingletonConfig;
+import com.hespinoza.designpatterns.singleton.domain.impl.SingletonConfig;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 

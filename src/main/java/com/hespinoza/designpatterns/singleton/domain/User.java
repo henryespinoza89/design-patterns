@@ -1,4 +1,4 @@
-package com.hespinoza.designpatterns.fintech.domain;
+package com.hespinoza.designpatterns.singleton.domain;
 
 public class User {
   private Long id;

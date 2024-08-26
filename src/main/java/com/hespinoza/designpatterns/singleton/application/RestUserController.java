@@ -1,9 +1,9 @@
-package com.hespinoza.designpatterns.fintech.application;
+package com.hespinoza.designpatterns.singleton.application;
 
-import com.hespinoza.designpatterns.fintech.domain.User;
-import com.hespinoza.designpatterns.fintech.domain.impl.SingletonConfig;
-import com.hespinoza.designpatterns.fintech.domain.impl.SingletonCounter;
-import com.hespinoza.designpatterns.fintech.domain.impl.UserService;
+import com.hespinoza.designpatterns.singleton.domain.User;
+import com.hespinoza.designpatterns.singleton.domain.impl.SingletonConfig;
+import com.hespinoza.designpatterns.singleton.domain.impl.SingletonCounter;
+import com.hespinoza.designpatterns.singleton.domain.impl.UserService;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
