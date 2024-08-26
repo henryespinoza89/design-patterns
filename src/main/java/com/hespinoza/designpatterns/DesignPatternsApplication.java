@@ -10,11 +10,8 @@ public class DesignPatternsApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(DesignPatternsApplication.class, args);
 
-		// Obtener la instancia única de SingletonConfig
-		SingletonConfig config = SingletonConfig.getInstance();
-		// Configurar algunos valores
-		config.setAppName("Mi Aplicación Spring Boot");
+		SingletonConfig config = SingletonConfig.getInstance(); // Get the single SingletonConfig instance
+		config.setAppName("My Spring Boot Application");
 		config.setMaxConnections(200);
 	}
-
 }
