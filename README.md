@@ -2,7 +2,7 @@
 
 Strategy es un patrón de diseño de comportamiento que te permite definir una familia de algoritmos, colocar cada uno de ellos en una clase separada y hacer sus objetos intercambiables. Es útil cuando tienes varias maneras de realizar una operación y deseas que el cliente pueda elegir cuál usar en tiempo de ejecución.
 
-`Ejemplo 01`
+`Ejemplo 01 - Uso de @Service y Setter Injection`
 1. <b>Definir la Interfaz Estrategia:</b> </br>
 Primero, define una interfaz que representará el comportamiento común para todas las estrategias de pago.</br>
 
