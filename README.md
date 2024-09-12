@@ -22,7 +22,7 @@ PayPalStrategy.java
 El servicio será responsable de elegir la estrategia adecuada para procesar el pago.</br>
 
 ```sh
-PaymentService.java
+PaymentServices.java
 ```
 > [!NOTE]
 > <b>Setter Injection:</b></br>
